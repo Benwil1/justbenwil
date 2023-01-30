@@ -1,0 +1,110 @@
+body {
+   
+    
+        
+        font-size: 16px;
+        width: 100%;
+        height:100vh;
+        margin: 0;
+       padding: 0;
+        color:whitesmoke;
+        margin: 0;
+   
+    background-image: url(https://c0.wallpaperflare.com/preview/522/913/316/people-write-notebook-diary.jpg);
+        background-color: rgb(45, 65, 153);
+        background-blend-mode: multiply;/*this blend the color with the background*/
+
+}
+h1,p{
+    font-family: Lucida Bright,Georgia,serif;
+    text-align: center;
+    margin: 1em auto;
+}
+h1{
+   font-size:40px;
+}
+form{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 500px;
+  min-width: 300px;
+}
+.field{
+    font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
+    
+}
+
+.blur{
+    
+  box-shadow: 0 0 3px 3px ;/*this helps in adding shadow to the box of color or image*/
+  border-radius: 9px;/*this help shaping the edges*/
+    background-color: rgba(3, 8, 32, 0.904);
+}
+
+.menu{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 600px; /*set the background image/color width*/
+    
+}
+/*the removes the border and add bottom line to every fieldset*/
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  /*this removes the last bottom border line*/
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  /*this rearrange everything written in each 
+  label to make it look nice and add the spacing*/
+  label {
+    display: block;/* this set the display text to block form*/
+    margin: 0.5rem 0;/*this set the spacing in between each word*/
+  }
+
+textarea,
+.arrange {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  min-width: 2em;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #080872;
+    border-color: white;
+    min-width: 300px;
+    color: aliceblue;
+  }
+  .red{
+    color: red;
+  }
+  a{
+    color: lightgreen;
+	text-decoration: none;
+  }
+  footer {
+    font-size: 14px;
+    
+  }
+  a:visited {
+    color: lightgreen;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: white;
+  }
